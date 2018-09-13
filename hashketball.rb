@@ -4,7 +4,7 @@ def game_hash
     :home{
       :team_name => "Brooklyn Nets ",
       :colors => ["Black, White"],
-      :players => {
+      :players => {"Alan Anderson" =>
         :number
         :shoe
         :points
@@ -12,7 +12,43 @@ def game_hash
         :assists
         :steals
         :blocks
-        :slam_dunks
+        :slam_dunks} 
+        "Reggie Evans" =>
+              :number
+              :shoe
+              :points
+              :rebounds
+              :assists
+              :steals
+              :blocks
+              :slam_dunks, "Brook Lopez" =>
+                            :number
+                            :shoe
+                            :points
+                            :rebounds
+                            :assists
+                            :steals
+                            :blocks
+                            :slam_dunks,
+                            "Mason Plumlee" =>
+                            :number
+                            :shoe
+                            :points
+                            :rebounds
+                            :assists
+                            :steals
+                            :blocks
+                            :slam_dunks,
+                            "Jason Terry" =>
+                                          :number
+                                          :shoe
+                                          :points
+                                          :rebounds
+                                          :assists
+                                          :steals
+                                          :blocks
+                                          :slam_dunks,}
+
       }
     }
 
